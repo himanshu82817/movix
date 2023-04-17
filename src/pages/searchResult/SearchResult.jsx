@@ -38,7 +38,7 @@ const SearchResult = () => {
       }else{
         setData(res)
       }
-      
+      setLoading(false)
       setPageNum((prev) => prev+1 )
     })
   }
