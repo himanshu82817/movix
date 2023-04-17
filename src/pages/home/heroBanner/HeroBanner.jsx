@@ -8,7 +8,8 @@ import useFetch from '../../../hooks/useFetch';
 
 
 import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
-import Img from '../../../components/lazyLoadImage/img';
+import Img from '../../../components/lazyLoadImage/Img';
+
 
 
 const HeroBanner = () => {
